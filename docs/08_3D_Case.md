@@ -81,6 +81,3 @@ La orientación debe verificarse visualmente en Cura o en el slicer utilizado. P
 7. Verificar alimentación a 3,30 V antes de cerrar.
 8. Cerrar la tapa trasera con silicona caliente si se desea mantener el diseño sin tornillos.
 
-## Nota para publicación
-
-Como la plataforma de chat no permitió adjuntar directamente archivos `.stl` o `.zip`, este paquete incluye la estructura y documentación preparada. Antes de publicar en GitHub, copiar manualmente los dos STL finales en la carpeta `stl/`.
