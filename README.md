@@ -1,6 +1,6 @@
 # GroundStation ELRS Backpack
 
-**GroundStation ELRS Backpack** es una estación de tierra portátil basada en ESP32 para recibir y visualizar telemetría desde un módulo **ExpressLRS TX Backpack** mediante WiFi/UDP.
+**GroundStation ELRS Backpack** es una estación de tierra portátil basada en ESP32 para recibir y visualizar telemetría CRSF (Crossfire) desde un módulo **ExpressLRS TX Backpack** mediante WiFi/UDP.
 
 La versión incluida en este repositorio corresponde a:
 
