@@ -8,7 +8,7 @@ La versión incluida en este repositorio corresponde a:
 - Release pública sugerida: **v1.0.0 Stable**
 - Plataforma: **ESP32 NodeMCU 38 pines USB-C**
 - Pantalla: **TFT ST7789 1,9 pulgadas, 172 x 320 píxeles**
-- Autor del proyecto: **Marcelo Grippo**
+- Autor del proyecto: **Ing. Marcelo Grippo**
 
 ![GroundStation logo](assets/logo/groundstation_logo.svg)
 
@@ -18,7 +18,7 @@ Esta versión fue validada en hardware real con alimentación autónoma mediante
 
 ## Funciones principales
 
-- Conexión automática al primer SSID visible que comience con `ExpressLRS TX Backpack`.
+- Conexión automática al primer SSID visible que comience con `ExpressLRS TX Backpack xxxxxx` y luego cualquier número.
 - Recepción UDP local en puerto `14550`.
 - Decodificación de tramas MSPv2 y CRSF.
 - Visualización de telemetría en pantalla TFT ST7789.
@@ -70,10 +70,10 @@ stl/GroundStation_Case_RearCover_v18_SMOOTH_NO_REAR_LIP.stl
 | SCLK / SCL | GPIO18 |
 | CS | GPIO5 |
 | DC | GPIO2 |
-| RST | GPIO4 |
-| BL / LED | GPIO25 |
+| RST| GPIO4|
+| BL / LED   | GPIO25 |
 | VCC | 3.3V |
-| GND | GND |
+| GND | GND  |
 
 ### Botones
 
@@ -109,9 +109,9 @@ Antes de conectar la placa, ajustar la salida del Step Down con multímetro a **
 ## Uso básico
 
 1. Encender la GroundStation.
-2. Encender el módulo ExpressLRS TX Backpack.
-3. Esperar que la estación encuentre el SSID `ExpressLRS TX Backpack*`.
-4. Esperar recepción UDP y luego telemetría del avión.
+2. Encender el módulo ExpressLRS TX Backpack de la radio en modo WiFi.
+3. Esperar que la estación encuentre el SSID `ExpressLRS TX Backpack xxxx*`.
+4. Esperar recepción UDP y luego telemetría del avión (recién allí conecte el modelo).
 5. Usar NEXT y PREV para navegar entre pantallas.
 6. Mantener NEXT para abrir el control de brillo.
 7. Usar RESET si es necesario reiniciar la ESP32.
