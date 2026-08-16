@@ -59,7 +59,6 @@ stl/GroundStation_Case_Body_v18_SMOOTH_NO_REAR_LIP.stl
 stl/GroundStation_Case_RearCover_v18_SMOOTH_NO_REAR_LIP.stl
 ```
 
-Nota: si este paquete fue generado desde la conversación con Copilot, los nombres y la documentación ya están preparados, pero los archivos `.stl` deben copiarse manualmente dentro de la carpeta `stl/` antes de publicar la Release en GitHub.
 
 ## Conexión rápida
 
