@@ -1,0 +1,15 @@
+GroundStation V2.5.1 Professional Stable Release
+
+Primera versión estable pública de la GroundStation ELRS Backpack.
+
+Incluye firmware Arduino IDE completo, configuración TFT_eSPI para ST7789 172 x 320, documentación de hardware, pinout, manual de uso, sistema de alimentación con 18650 + TP4056 + Step Down a 3,30 V, y documentación de troubleshooting.
+
+Validada en hardware real con ESP32 NodeMCU 38 pines USB-C y pantalla TFT ST7789 1,9 pulgadas.
+
+
+Gabinete 3D documentado:
+- GroundStation_Case_Body_v18_SMOOTH_NO_REAR_LIP.stl
+- GroundStation_Case_RearCover_v18_SMOOTH_NO_REAR_LIP.stl
+
+Case version: V18 SMOOTH_NO_REAR_LIP.
+Nota: copiar manualmente los archivos STL finales a la carpeta stl/ antes de publicar si no están incluidos en el ZIP.
